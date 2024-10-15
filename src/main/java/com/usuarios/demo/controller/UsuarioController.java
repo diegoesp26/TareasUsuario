@@ -34,6 +34,7 @@ public class UsuarioController {
 	/*
 	 * ENDPOINT QUE INSCRIBE Y ACTUALIZA USUARIO
 	 */
+	// XDXDXD
 	@PostMapping("/inscripcion/save")
 	@PreAuthorize("hasRole('USER')")
 	public ResponseEntity<?> inscribeUsuario(@RequestBody UsuarioDTO usuarioDTO) {
